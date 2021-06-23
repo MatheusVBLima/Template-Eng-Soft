@@ -8,7 +8,7 @@
 .center {
     display: flex;
     max-width: 1100px;
-    padding: 0.2%;
+    padding: 0 2%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -40,7 +40,7 @@ section.main {
     color: white;
     text-decoration: none;
     display: inline-block;
-    margin: 10px;
+    margin: 0 10px;
 }
 
 .items-menu a:hover {
@@ -48,7 +48,7 @@ section.main {
 }
 
 .items-menu a.contact-btn {
-    background-color: #0f3fd3;
+    background-color: #0F3FD3;
     padding: 10px 10px;
     border-radius: 10px;
 }
@@ -66,11 +66,7 @@ section.main {
 }
 
 .mockup h1 {
-    font-size: 41px;
-}
-
-.mockup p {
-    font-size: 25px;
+    font-size: 50px;
 }
 
 .mockup img {
@@ -82,12 +78,12 @@ section.marcas {
 }
 
 section.marcas img {
-    width: 20%;
+    width: calc(100% / 5);
 }
 
 section.porque-nos {
     padding: 40px 0;
-    background-color: #fbfcfe;
+    background-color: #FBFCFE;
 }
 
 section.porque-nos>.center>h2 {
@@ -113,7 +109,7 @@ section.porque-nos>.center>p {
 }
 
 .box-diferenciais {
-    box-shadow: 0px 20px 40px #2426721c;
+    box-shadow: 0px 20px 40px #2426721C;
     width: 31%;
     margin-right: 2%;
     padding: 10px 20px;
@@ -122,13 +118,13 @@ section.porque-nos>.center>p {
 
 .box-diferenciais h3 {
     font-size: 28px;
-    margin: 20px 0;
     color: black;
+    margin: 20px 0;
 }
 
 .box-diferenciais p {
     font-size: 13px;
-    color: #7e92ac;
+    color: #7E92AC;
     margin-bottom: 20px;
 }
 
