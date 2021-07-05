@@ -31,8 +31,9 @@ section.main {
 }
 
 .items-menu {
-    width: 50%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
+    position: absolute;
 }
 
 .items-menu a {
@@ -47,13 +48,23 @@ section.main {
     border-bottom: 2px solid #FFDD33;
 }
 
-.items-menu a.contact-btn {
+.items-menu a.cadastro {
     background-color: #0F3FD3;
     padding: 10px 10px;
     border-radius: 10px;
 }
 
-.items-menu a.contact-btn:hover {
+.items-menu a.cadastro:hover {
+    border: 0;
+}
+
+.items-menu a.entrar {
+    background-color: #0F3FD3;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.items-menu a.entrar:hover {
     border: 0;
 }
 
@@ -335,7 +346,7 @@ footer {
 }
 
 .text-footer {
-    width: 50%;
+    width: 100%;
     padding: 8px 0;
 }
 
@@ -398,7 +409,7 @@ footer {
     }
     .text-footer {
         width: 100%;
-        text-align: center;
+        text-align: right;
         padding: 8px 0;
     }
     .lista-beneficios,
