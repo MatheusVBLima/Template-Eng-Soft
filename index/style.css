@@ -14,7 +14,7 @@
 }
 
 section.main {
-    background-image: url('imagens/bg.svg');
+    background-image: url('../imagens/bg.svg');
     background-position: center;
     background-size: cover;
     min-height: 700px;
@@ -129,7 +129,7 @@ section.porque-nos>.center>p {
 }
 
 section.cta {
-    background-image: url('imagens/banner_meio.svg');
+    background-image: url('../imagens/banner_meio.svg');
     background-size: cover;
     background-position: center;
     padding: 20px 10px;
