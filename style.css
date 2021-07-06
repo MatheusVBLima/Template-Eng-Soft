@@ -32,8 +32,8 @@ section.main {
 
 .items-menu {
     width: 100%;
-    text-align: center;
-    position: absolute;
+    text-align: right;
+    margin-bottom: 20px;
 }
 
 .items-menu a {
@@ -409,7 +409,7 @@ footer {
     }
     .text-footer {
         width: 100%;
-        text-align: right;
+        text-align: left;
         padding: 8px 0;
     }
     .lista-beneficios,
