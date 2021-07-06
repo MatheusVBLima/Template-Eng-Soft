@@ -27,20 +27,19 @@ section.main {
 }
 
 .logo-menu {
-    width: 50%;
+    width: 30%;
 }
 
 .items-menu {
-    width: 100%;
+    width: 80%;
     text-align: right;
-    margin-bottom: 25px;
+    padding: 10px;
 }
 
 .items-menu a {
     font-weight: bold;
     color: white;
     text-decoration: none;
-    display: inline-block;
     margin: 0 10px;
 }
 
@@ -346,8 +345,8 @@ footer {
 }
 
 .text-footer {
-    width: 100%;
-    padding: 8px 0;
+    width: 20%;
+    padding: 12px 0;
 }
 
 .items-menu-mobile {
@@ -364,7 +363,7 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .items-menu-mobile {
         display: block;
     }
@@ -409,7 +408,7 @@ footer {
     }
     .text-footer {
         width: 100%;
-        text-align: left;
+        text-align: center;
         padding: 8px 0;
     }
     .lista-beneficios,
